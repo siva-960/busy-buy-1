@@ -42,7 +42,11 @@ export const App = ()=>{
       }
     ]
   }
-]);
+],
+  {
+    basename: "/busy-buy-1", // Add this line
+  }
+ );
  
   return(
       <AuthContextProvider>
